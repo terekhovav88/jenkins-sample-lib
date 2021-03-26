@@ -1,1 +1,11 @@
-println("Hello")
+#!/usr/bin/env groovy
+package org.foo
+
+class GlobalVars {
+    static String foo = "bar"
+
+    // refer to this in a pipeline using:
+    //
+    // import com.cleverbuilder.GlobalVars
+    // println GlobalVars.foo
+}
