@@ -1,12 +1,10 @@
-import org.foo.SampleClass
+import org.foo.Zot
 
 
-def cloneRepo(String url){
-    println("git branch: 'main', credentialsId: 'f8413abe-394d-4162-98d5-842a7e37942d', url: \"https://github.com/terekhovav88/${url}.git\"")
-}
+
 
 //def age(int age){
-//    def test = new SampleClass()
+//    def test = new Zot()
 //    test.increaseAge(age)
 //    println(test.name +" "+ test.age+" years old")
 //}
