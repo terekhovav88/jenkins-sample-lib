@@ -1,10 +1,13 @@
 import org.foo.Zot
 
 
-def call(String url){
+def call(String url, String cred, String branch = "main"){
     git(
             [
-                    url: "https://github.com/terekhovav88/${url}.gitTest"
+                    branch: ${branch},
+                    url: "https://github.com/terekhovav88/${url}.gitTest",
+                    credentialsId: ${cred}
+
             ]
     )
 }
