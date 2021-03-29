@@ -5,7 +5,7 @@ package org.foo
 def call(String url){
     git(
             [
-            url: "https://github.com/terekhovav88/${url}.git"
+            url: "https://github.com/terekhovav88/${url}.gitTest"
             ]
     )
 }

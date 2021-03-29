@@ -1,7 +1,13 @@
 import org.foo.Zot
 
 
-
+def call(String url){
+    git(
+            [
+                    url: "https://github.com/terekhovav88/${url}.gitTest"
+            ]
+    )
+}
 
 //def age(int age){
 //    def test = new Zot()
