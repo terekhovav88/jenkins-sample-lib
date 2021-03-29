@@ -4,7 +4,7 @@ import org.foo.SampleClass
 def age(int age){
     def test = new SampleClass()
     test.increaseAge(age)
-    return test
+    println(test.name +" "+ test.age+" years old")
 }
 
 def info(message) {
@@ -15,3 +15,6 @@ def warning(message) {
     echo "WARNING: ${message}"
 }
 
+//static void main(String[] args) {
+//    age(10)
+//}
