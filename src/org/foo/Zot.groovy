@@ -2,8 +2,12 @@
 
 package org.foo
 
-def cloneRepo(url){
-    git url: "https://github.com/terekhovav88/${url}.git"
+def call(String url){
+    git(
+            [
+            url: "https://github.com/terekhovav88/${url}.git"
+            ]
+    )
 }
 return this
 
