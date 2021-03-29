@@ -2,7 +2,7 @@ import org.foo.SampleClass
 
 
 def cloneRepo(String url){
-    git branch: 'main', credentialsId: 'f8413abe-394d-4162-98d5-842a7e37942d', url: "https://github.com/terekhovav88/${url}.git"
+    println("git branch: 'main', credentialsId: 'f8413abe-394d-4162-98d5-842a7e37942d', url: \"https://github.com/terekhovav88/${url}.git\"")
 }
 
 //def age(int age){
