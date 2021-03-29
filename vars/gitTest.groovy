@@ -5,7 +5,7 @@ def call(String url, String cred, String branch = "main"){
     git(
             [
                     branch: branch,
-                    url: "https://github.com/terekhovav88/${url}.gitTest",
+                    url: "https://github.com/terekhovav88/${url}.git",
                     credentialsId: cred
 
             ]
